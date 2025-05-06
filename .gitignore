@@ -1,1 +1,19 @@
+# Node
+node_modules/
+pnpm-lock.yaml
 
+# Build output
+dist/
+
+# System junk
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Caches
+.cache/
