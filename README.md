@@ -16,3 +16,6 @@ This is my personal landing page, built to showcase my background, skills, and s
 - **Tailwind CSS** — Utility-first styling
 - **TypeScript** — Type-safe component development
 - **GitHub** — For hosting and deployment
+
+## 🧠 Inspiration
+- https://brittanychiang.com/
