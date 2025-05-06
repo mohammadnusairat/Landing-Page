@@ -1,5 +1,4 @@
 {
-    "homepage": "https://github.com/mohammadnusairat/Landing-Page",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
