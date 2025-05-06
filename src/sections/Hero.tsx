@@ -32,7 +32,7 @@ export default function Hero() {
       {/* Image */}
       <div className="md:w-1/2 flex justify-center">
         <img
-          src="/bannerMN.JPEG"
+          src="/bannerMN.jpeg"
           alt="Mohammad Nusairat working at laptop"
           className="rounded-lg shadow-lg max-h-[400px] object-cover"
           loading="lazy"
