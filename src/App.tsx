@@ -1,10 +1,10 @@
 // App.tsx
 import { useState, useEffect } from 'react';
-import About from './sections/About';
+import Skills from './sections/Skills';
 import Hero from './sections/Hero';
 import { Experience } from './sections/Experience';
 import { Projects } from './sections/Projects';
-import { Resume } from './sections/Resume';
+import Certifications from './sections/Certifications';
 import { Footer } from './sections/Footer';
 import { Navbar } from './components/Navbar';
 
@@ -20,10 +20,10 @@ export default function App() {
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <main className="max-w-5xl mx-auto px-4">
         <Hero />
-        <About />
+        <Skills />
         <Experience />
         <Projects />
-        <Resume />
+        <Certifications />
       </main>
       <Footer />
     </div>

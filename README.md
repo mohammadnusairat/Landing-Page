@@ -1,36 +1,44 @@
 # 🧑‍💻 Mohammad Nusairat — Personal Portfolio
 
-This is my personal landing page, built to showcase my background, skills, and selected projects as a Software Engineer. Designed to be clean, modern, and responsive, the page highlights my resume, projects, and contact details for recruiters and collaborators.
+This is my personal landing page, built to showcase my background, skills, projects, and certifications as a Software Engineer with a focus on AI, data science, and full-stack development. Designed to be clean, modern, and fully responsive, the site emphasizes interactivity and clarity so recruiters and collaborators can both read and **see** my work.
 
 ## 🚀 Features
 
-- Minimalist and modern UI
-- Fully responsive for desktop and mobile
-- Section-based layout: Hero, About, Experience, Projects, Resume, Footer
-- Custom domain configured via GoDaddy (`mohammadnusairat.com`)
-- Deployed using Vercel with CI/CD from GitHub
+- 🌟 Animated **Hero section** with glowing keyword emphasis and gradient CTA buttons
+- 👨‍🔬 Visual **Experience cards** with image previews, click-to-enlarge modal lightbox, and resume-style bullet points
+- 📁 Fully featured **Projects section** with technology tags, GitHub links, and upcoming image previews
+- 🏆 A **Certifications** section replacing the resume download, using issuer logos and card layout
+- 📎 Dual CTA buttons: **View Resume** and **View GitHub**, with pulse-glow animations
+- 🔗 Icon-based **Footer** linking to email, LinkedIn, and GitHub with Lucide icons
+- 📅 Footer version label: `v1.0 — Last updated May 2025`
+- 🌓 Dark mode support and responsive layout across devices
 
 ## 🛠️ Technologies Used
 
-- **Vite** — Lightning-fast frontend tooling for building the React app
-- **React 19** — Declarative component-based UI
-- **Tailwind CSS 3** — Utility-first styling for clean layouts
-- **TypeScript** — Strong typing and better DX
-- **Framer Motion** — Smooth animation and component transitions
-- **Lucide React** — Icon library for modern UI
-- **Vercel** — Hosting and automatic deployments
-- **GoDaddy** — Domain name management
+- **React 19** — Declarative UI framework
+- **Vite** — Lightning-fast dev server and build tool
+- **TypeScript** — Type-safe coding with excellent DX
+- **Tailwind CSS 3** — Utility-first design system
+- **Framer Motion** — Entrance animations, modals, and hero effects
+- **Lucide React** — Clean and lightweight icon library
+- **Vercel** — Fast hosting with GitHub CI/CD integration
+- **GoDaddy** — Custom domain `mohammadnusairat.com`
+
 
 ## ⚙️ Development & Deployment Notes
 
-- Switched from `npm` to `pnpm` to resolve Vercel's permission issues with `vite`
-- Removed `gh-pages` and static deployment in favor of Vercel CI builds
-- Assets are served from `/public/` and referenced with exact case-sensitive paths
+- Converted `Resume` section into `Certifications`, with organization logos and dates
+- Lightbox implemented using `Framer Motion` + `useState` for image previews in experience cards
+- Hero title and CTA buttons use `pulse-glow` custom animation defined in `globals.css`
+- Tailwind animations and gradients dynamically shift on hover and pulse
+- Responsive, mobile-friendly layout with stacked or grid views depending on screen size
+- Assets are stored in `/public/` and should be optimized for clarity (1200x675px recommended for thumbnails)
 
 ## 🌐 Live Site
 
-Visit: [https://mohammadnusairat.com](https://mohammadnusairat.com)
+Visit → [https://mohammadnusairat.com](https://mohammadnusairat.com)
 
-## 🧠 Inspiration
+## 🧠 TO-DO
 
-- [https://brittanychiang.com/](https://brittanychiang.com/)
+- Make "view project" green links a link to the deployed project website
+- Add more projects not featured in resume (eg. the final report i did in R, book review application, etc.)
