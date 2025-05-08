@@ -7,17 +7,17 @@ const projectsByCategory = {
       title: "Obesity Risk Predictor",
       description: "ML pipeline with ensemble models and 98% accuracy. Feature engineering on 20k records, with full-stack Docker deployment in progress.",
       tech: ["Python", "Scikit-learn", "PostgreSQL", "Docker", "AWS"],
-      image: "/obesity-model.jpg",
+      image: "", // TO-DO
       github: "https://github.com/mohammadnusairat/Full-Stack-Obesity-Insight-Predictor",
-      live: "/obesity-model.jpg"
+      live: "" // TO-DO
     },
     {
       title: "Campus Meeting Point App",
       description: "React + Flask app for finding optimal geospatial midpoints on campus using OSM XML, Dijkstra’s algorithm, Geodesic Fermat Point, and building feature filters.",
       tech: ["React", "Flask", "OpenStreetMap", "Geopy", "NetworkX"],
-      image: "/campus-app.png",
+      image: "", // TO-DO. insert "/campus-app.png" (just update pic if front-end changes)
       github: "https://github.com/mohammadnusairat/Campus-Meeting-Point-Application",
-      live: "/campus-app.png"
+      live: "" // TO-DO
     },
     {
       title: "Book Review Web App",
@@ -25,23 +25,23 @@ const projectsByCategory = {
       tech: ["Flask", "Python", "MySQL", "Jinja2", "CSS"],
       image: "", // Add this
       github: "https://github.com/mohammadnusairat/Book-Review-Application",
-      live: ""
+      live: "" // TO-DO
     }
   ],
-  "ML & Data Science Projects — Python": [
+  "Machine Learning & Data Science": [
     {
       title: "Flight Delay Prediction",
       description: "ML pipeline trained on O'Hare airport data. Used visualization + ensemble methods to achieve 81% accuracy for airline schedule optimization.",
       tech: ["Pandas", "Matplotlib", "Logistic Regression", "Random Forest"],
-      image: "/flight-delay-model.jpg",
+      image: "", // TO-DO
       github: "https://github.com/mohammadnusairat/Flight-Time-Delay-Prediction",
-      live: "/flight-delay-model.jpg"
+      live: "Flight-Delay-Prediction.pdf"
     },
     {
       title: "Political Tweet Classifier",
       description: "Built a supervised machine learning pipeline to classify political tweets as liberal or conservative using TF-IDF, SVMs, and NLP preprocessing with NLTK.",
       tech: ["Python", "scikit-learn", "NLTK", "TF-IDF", "SVM"],
-      image: "", // Add this
+      image: "", // TO-DO
       github: "https://github.com/mohammadnusairat/Supervised-Machine-Learning-Pipeline",
       live: "/Political-Tweet-Classifier.pdf"
     },
@@ -49,17 +49,17 @@ const projectsByCategory = {
       title: "Scientific Abstract Clustering",
       description: "Performed unsupervised learning on 5,000 scientific abstracts using TF-IDF, dimensionality reduction (TruncatedSVD, PCA), and KMeans clustering.",
       tech: ["Python", "scikit-learn", "NLTK", "PCA", "KMeans"],
-      image: "", // Add this
+      image: "", // TO-DO
       github: "https://github.com/mohammadnusairat/Unsupervised-Learning-on-Scientific-Abstracts",
       live: "/Scientific-Abstract-Clustering.pdf"
     }
   ],
-  "Statistical Modeling & Analysis — R": [
+  "Statistical Modeling & Analysis": [
     {
       title: "Diabetes Progression Analysis",
       description: "Statistical modeling of diabetes disease progression using R. Applied multiple linear regression, model selection (Mallows’ Cp, adjusted R²), and diagnostic checks on the LARS diabetes dataset.",
       tech: ["R", "ggplot2", "car", "MASS", "dplyr", "corrplot"],
-      image: "", // Add this
+      image: "", // TO-DO
       github: "https://github.com/mohammadnusairat/Diabetes-Progression-Analysis",
       live: "/Diabetes-Progression-Analysis.pdf"
     },
@@ -67,7 +67,7 @@ const projectsByCategory = {
       title: "Optimized Tumor Prediction",
       description: "Applied statistical modeling and ML techniques to predict tumor malignancy using WDBC dataset. Achieved 97% accuracy using SVM and Random Forest after feature selection, multicollinearity checks, and model tuning.",
       tech: ["R", "Logistic Regression", "Random Forest", "SVM", "KNN", "Decision Tree"],
-      image: "", // Add this
+      image: "", // TO-DO
       github: "https://github.com/mohammadnusairat/Significant-Feature-Selection-and-Optimized-Tumor-Prediction",
       live: "/Optimized-Tumor-Prediction.pdf"
     }
