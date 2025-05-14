@@ -20,12 +20,12 @@ const projectsByCategory = {
       live: "" // TO-DO
     },
     {
-      title: "Book Review Web App",
-      description: "Full-stack Flask app with secure user auth, book search/filtering, and review aggregation using MySQL. Supports advanced queries, admin book management, and password hashing via SHA-256.",
-      tech: ["Flask", "Python", "MySQL", "Jinja2", "CSS"],
+      title: "Book Review App",
+      description: "Full-stack Flask app with secure auth, book search/filtering, and review aggregation built around raw SQL queries, deployed via Railway with a cloud-hosted MySQL database. Supports advanced queries, admin book control, and password hashing via SHA-256.",
+      tech: ["Flask", "Python", "MySQL", "Railway", "Jinja2", "CSS"],
       image: "", // Add this
       github: "https://github.com/mohammadnusairat/Book-Review-Application",
-      live: "" // TO-DO
+      live: "https://web-production-0014.up.railway.app/"
     }
   ],
   "Machine Learning & Data Science": [
