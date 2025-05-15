@@ -16,7 +16,7 @@ export default function Skills() {
       "PostgreSQL", "MongoDB", "SQLite", "Matplotlib", "Seaborn", "NetworkX", "Geopy"
     ],
     "Tools & DevOps": [
-      "Git", "GitHub", "Jupyter Notebook", "VS Code", "Docker", "AWS", "Anaconda", "Stripe API"
+      "Git", "GitHub", "Jupyter Notebook", "VS Code", "Docker", "AWS", "Anaconda", "Stripe API", "Railway", "Vercel"
     ],
     "Design & Collaboration": [
       "Figma", "Agile/Scrum", "CI/CD", "MVC Design Pattern", "Technical Writing", "Test-Driven Development"

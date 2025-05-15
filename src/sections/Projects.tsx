@@ -5,25 +5,25 @@ const projectsByCategory = {
   "Full-Stack Applications": [
     {
       title: "Obesity Risk Predictor",
-      description: "ML pipeline with ensemble models and 98% accuracy. Feature engineering on 20k records, with full-stack Docker deployment in progress.",
+      description: "ML pipeline with ensemble models and 98% accuracy. Feature engineering on 20k+ records. Full-stack Docker deployment in progress.",
       tech: ["Python", "Scikit-learn", "PostgreSQL", "Docker", "AWS"],
-      image: "", // TO-DO
+      image: "/obesity-risk-predictor.jpg",
       github: "https://github.com/mohammadnusairat/Full-Stack-Obesity-Insight-Predictor",
-      live: "" // TO-DO
+      live: "/CS412_Final_Project.pdf"
     },
     {
       title: "Campus Meeting Point App",
-      description: "React + Flask app for finding optimal geospatial midpoints on campus using OSM XML, Dijkstra’s algorithm, Geodesic Fermat Point, and building feature filters.",
-      tech: ["React", "Flask", "OpenStreetMap", "Geopy", "NetworkX"],
-      image: "", // TO-DO. insert "/campus-app.png" (just update pic if front-end changes)
+      description: "Full-stack geospatial app that computes optimal meeting points using OSM data, Dijkstra’s algorithm, and geodesic Fermat point logic. Includes building filters, trie-based autocomplete, and interactive map rendering. Built with Next.js + Flask and deployed via Vercel and Railway.",
+      tech: ["React", "Flask", "OpenStreetMap", "Geopy", "NetworkX", "Railway", "Vercel"],
+      image: "/campus-app.png",
       github: "https://github.com/mohammadnusairat/Campus-Meeting-Point-Application",
-      live: "" // TO-DO
+      live: "https://campus-meeting-point-application.vercel.app/"
     },
     {
       title: "Book Review App",
       description: "Full-stack Flask app with secure auth, book search/filtering, and review aggregation built around raw SQL queries, deployed via Railway with a cloud-hosted MySQL database. Supports advanced queries, admin book control, and password hashing via SHA-256.",
       tech: ["Flask", "Python", "MySQL", "Railway", "Jinja2", "CSS"],
-      image: "", // Add this
+      image: "/book-review-app.png",
       github: "https://github.com/mohammadnusairat/Book-Review-Application",
       live: "https://web-production-0014.up.railway.app/"
     }
@@ -33,7 +33,7 @@ const projectsByCategory = {
       title: "Flight Delay Prediction",
       description: "ML pipeline trained on O'Hare airport data. Used visualization + ensemble methods to achieve 81% accuracy for airline schedule optimization.",
       tech: ["Pandas", "Matplotlib", "Logistic Regression", "Random Forest"],
-      image: "", // TO-DO
+      image: "/flight-delay-prediction.jpg",
       github: "https://github.com/mohammadnusairat/Flight-Time-Delay-Prediction",
       live: "Flight-Delay-Prediction.pdf"
     },
@@ -41,7 +41,7 @@ const projectsByCategory = {
       title: "Political Tweet Classifier",
       description: "Built a supervised machine learning pipeline to classify political tweets as liberal or conservative using TF-IDF, SVMs, and NLP preprocessing with NLTK.",
       tech: ["Python", "scikit-learn", "NLTK", "TF-IDF", "SVM"],
-      image: "", // TO-DO
+      image: "/political-tweet-classifier.jpg",
       github: "https://github.com/mohammadnusairat/Supervised-Machine-Learning-Pipeline",
       live: "/Political-Tweet-Classifier.pdf"
     },
@@ -49,7 +49,7 @@ const projectsByCategory = {
       title: "Scientific Abstract Clustering",
       description: "Performed unsupervised learning on 5,000 scientific abstracts using TF-IDF, dimensionality reduction (TruncatedSVD, PCA), and KMeans clustering.",
       tech: ["Python", "scikit-learn", "NLTK", "PCA", "KMeans"],
-      image: "", // TO-DO
+      image: "/scientific-abstract-clustering.jpg",
       github: "https://github.com/mohammadnusairat/Unsupervised-Learning-on-Scientific-Abstracts",
       live: "/Scientific-Abstract-Clustering.pdf"
     }
@@ -59,7 +59,7 @@ const projectsByCategory = {
       title: "Diabetes Progression Analysis",
       description: "Statistical modeling of diabetes disease progression using R. Applied multiple linear regression, model selection (Mallows’ Cp, adjusted R²), and diagnostic checks on the LARS diabetes dataset.",
       tech: ["R", "ggplot2", "car", "MASS", "dplyr", "corrplot"],
-      image: "", // TO-DO
+      image: "/diabetes-progression-analysis.jpg",
       github: "https://github.com/mohammadnusairat/Diabetes-Progression-Analysis",
       live: "/Diabetes-Progression-Analysis.pdf"
     },
@@ -67,7 +67,7 @@ const projectsByCategory = {
       title: "Optimized Tumor Prediction",
       description: "Applied statistical modeling and ML techniques to predict tumor malignancy using WDBC dataset. Achieved 97% accuracy using SVM and Random Forest after feature selection, multicollinearity checks, and model tuning.",
       tech: ["R", "Logistic Regression", "Random Forest", "SVM", "KNN", "Decision Tree"],
-      image: "", // TO-DO
+      image: "/optimized-tumor-prediction.png",
       github: "https://github.com/mohammadnusairat/Significant-Feature-Selection-and-Optimized-Tumor-Prediction",
       live: "/Optimized-Tumor-Prediction.pdf"
     }
