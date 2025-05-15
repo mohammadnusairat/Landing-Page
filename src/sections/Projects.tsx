@@ -12,7 +12,7 @@ const projectsByCategory = {
       live: "/CS412_Final_Project.pdf"
     },
     {
-      title: "Campus Meeting Point App",
+      title: "UIC Spot Finder",
       description: "Full-stack geospatial app that computes optimal meeting points using OSM data, Dijkstra’s algorithm, and geodesic Fermat point logic. Includes building filters, trie-based autocomplete, and interactive map rendering. Built with Next.js + Flask and deployed via Vercel and Railway.",
       tech: ["React", "Flask", "OpenStreetMap", "Geopy", "NetworkX", "Railway", "Vercel"],
       image: "/campus-app.png",
