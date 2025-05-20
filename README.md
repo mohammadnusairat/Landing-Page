@@ -40,5 +40,4 @@ Visit → [https://mohammadnusairat.com](https://mohammadnusairat.com)
 
 ## 🧠 TO-DO
 
-- Make "view project" green links a link to the deployed project website
-- Add more projects not featured in resume (eg. the final report i did in R, book review application, etc.)
+- Currently up to date !

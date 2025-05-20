@@ -4,6 +4,14 @@ import { motion } from 'framer-motion';
 const projectsByCategory = {
   "Full-Stack Applications": [
     {
+      title: "Arabic YouTube Transcript Translator",
+      description: "Full-stack app that transcribes Arabic YouTube videos, translates them into English, and outputs timestamped Markdown and PDF documents. Built with Vite + React frontend, Node/Express backend, and deployed on Vercel and Railway.",
+      tech: ["React", "Vite", "Node.js", "Express.js", "4+ Cloud APIs", "Railway", "Vercel"],
+      image: "/arabic-transcript-translator.png",
+      github: "https://github.com/mohammadnusairat/Arabic-YouTube-Transcript-Translator",
+      live: "https://arabic-youtube-transcript-translator.vercel.app/"
+    },
+    {
       title: "Obesity Risk Predictor",
       description: "ML pipeline with ensemble models and 98% accuracy. Feature engineering on 20k+ records. Full-stack Docker deployment in progress.",
       tech: ["Python", "Scikit-learn", "PostgreSQL", "Docker", "AWS"],
