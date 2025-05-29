@@ -5,7 +5,7 @@ const projectsByCategory = {
   "Full-Stack Applications": [
     {
       title: "Arabic YouTube Transcript Translator",
-      description: "Full-stack app that transcribes Arabic YouTube videos, translates them into English, and outputs timestamped Markdown and PDF documents. Built with Vite + React frontend, Node/Express backend, and deployed on Vercel and Railway.",
+      description: "Full-stack app that transcribes Arabic YouTube videos, translates them into English, and outputs timestamped Markdown, PDF, and SRT documents. Built with Vite + React frontend, Node/Express backend, and deployed on Vercel and Railway.",
       tech: ["React", "Vite", "Node.js", "Express.js", "4+ Cloud APIs", "Railway", "Vercel"],
       image: "/arabic-transcript-translator.png",
       github: "https://github.com/mohammadnusairat/Arabic-YouTube-Transcript-Translator",
