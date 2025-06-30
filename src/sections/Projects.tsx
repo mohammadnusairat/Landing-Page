@@ -12,6 +12,14 @@ const projectsByCategory = {
       live: "https://arabic-youtube-transcript-translator.vercel.app/"
     },
     {
+      title: "TreeScribe🌳",
+      description: "Full-stack web app that allows the user to upload any folder and download its entire directory structure in seconds. Perfect for documentation, collaboration, or just staying organized!",
+      tech: ["FastAPI", "Jinja2", "JavaScript", "Railway", "Jinja2", "CSS"],
+      image: "/TreeScribe.png",
+      github: "https://github.com/mohammadnusairat/TreeScribe",
+      live: "https://web-production-7ebec6.up.railway.app/"
+    },
+    {
       title: "Obesity Risk Predictor",
       description: "ML pipeline with ensemble models and 98% accuracy. Feature engineering on 20k+ records. Full-stack Docker deployment in progress.",
       tech: ["Python", "Scikit-learn", "PostgreSQL", "Docker", "AWS"],

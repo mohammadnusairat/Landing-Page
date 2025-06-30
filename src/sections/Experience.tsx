@@ -19,7 +19,7 @@ const experiences = [
   {
     title: "Software Developer – AI Trainer",
     org: "Outlier (Remote)",
-    date: "Jul 2024 – Present",
+    date: "Jul 2024 – Apr 2025",
     bullets: [
       "Evaluated the quality of AI-generated Python/C++ code by developing robust test cases to train the model.",
       "Enhanced the accuracy of the LLM’s output through data ingestion and feedback cycles.",
