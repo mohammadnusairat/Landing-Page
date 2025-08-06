@@ -28,15 +28,24 @@ export default function Hero() {
           I design and build intelligent systems that are fast, scalable, and user-focused. My variety of experience spans full-stack development, ML model training and deployment, data science, and research in computer programming.
           <br />
           <span className="inline-block">
-            I recently graduated with a B.S. in Data Science (Computer Science concentration) from the University of Illinois Chicago, and I’m currently seeking full-time opportunities in software engineering, data science, or AI engineering, ideally in the{' '}
+            I recently graduated with a B.S. in Data Science (Computer Science concentration) from the University of Illinois Chicago. I’m currently working as a{' '}
             <span className="relative inline-block group cursor-pointer">
               <span className="relative z-10 text-blue-700 dark:text-blue-300 animate-[pulse-glow_3s_ease-in-out_infinite]">
-                health-care field
+          Jr. Full-Stack Developer
               </span>
               <span className="absolute left-0 bottom-0 w-full h-[2px] bg-blue-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></span>
               <span className="absolute inset-0 rounded-md ring-2 ring-blue-300/40 blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></span>
             </span>
-            . Let’s connect!
+            {' '} at{' '}
+            <a
+              href="https://www.constellation.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-700 dark:text-blue-300 underline hover:text-blue-900 transition-colors"
+            >
+              Constellation
+            </a>
+            , and pursuing a M.S. in Computer Science at the University of Illinois Urbana-Champaign. Let’s connect!
           </span>
         </p>
 

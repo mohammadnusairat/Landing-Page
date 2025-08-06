@@ -17,7 +17,7 @@ export function Footer() {
           <p>
             © {new Date().getFullYear()} Mohammad Nusairat. Built with React + Tailwind CSS.
           </p>
-          <p className="text-xs opacity-70">v1.0 — Last updated May 2025</p>
+          <p className="text-xs opacity-70">v1.2 — Last updated August 2025</p>
         </div>
 
         <div className="mt-3 flex justify-center gap-6 text-sm text-gray-600 dark:text-gray-300">

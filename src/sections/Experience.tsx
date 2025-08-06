@@ -4,6 +4,58 @@ import { motion } from 'framer-motion';
 
 const experiences = [
   {
+    title: "Jr. Full-Stack Developer",
+    org: "Constellation Energy Corporation",
+    date: "August 2025 - Present",
+    bullets: [
+      "Building a Modern AI-Powered Sales Platform."
+    ],
+    image: "/constellation_logo.gif",
+    thumbnail: "/constellation_logo.gif",
+    imageAlt: "Constellation Logo"
+  },
+  {
+    title: "Software Engineering Intern",
+    org: "MUHSEN",
+    date: "June 2025 - Present",
+    bullets: [
+      "Built and deployed an internally adopted org-wide CSV processing platform for donor data encryption, and advanced data cleaning and deduplication.",
+      "Improved data privacy compliance and volunteer workflow by 10x, by implementing column-level encryption using Fernet and domain-gated Flask endpoints.",
+      "Reduced duplicate donor records by 40% through fuzzy matching and entity resolution, using recordlinkage and rapidfuzz for clustering and ID assignment",
+      "Increased donor outreach accuracy by validating 5,000+ emails and addresses, by integrating ZeroBounce API and Google Places API into a custom Flask + Next.js suite."
+    ],
+    image: "/muhsen_logo.png",
+    thumbnail: "/muhsen_logo.png",
+    imageAlt: "MUHSEN Logo"
+  },
+  {
+    title: "Machine Learning Intern",
+    org: "Dasion",
+    date: "May 2025 - August 2025",
+    bullets: [
+      "Built a multimodal cancer imaging platform used to manage patient records and analyze MRI, CT, X-ray, and histopathology scans, by developing a full-stack app with FastAPI, PostgreSQL, and React",
+      "Enabled 4-way breast cancer classification with 91% confidence, integrating a CNN-based histopathology model into the platform for real-time tissue analysis.",
+      "Achieved 68% micro-F1 score on unseen protein networks, by training a GraphSAGE model with PyTorch Geometric for multi-label PPI classification across 24 disjoint graphs",
+      "Enhanced model interpretability and diagnostic accuracy by generating t-SNE visualizations and error heatmaps to evaluate learned protein embeddings."
+    ],
+    image: "/dasion_logo.png",
+    thumbnail: "/dasion_logo.png",
+    imageAlt: "Dasion Logo"
+  },
+  {
+    title: "Back-End Software Engineering Intern",
+    org: "MailSped",
+    date: "June 2025 - July 2025",
+    bullets: [
+      "Expanded the AI-powered email platform, integrating Outlook via Microsoft Graph API and Azure OAuth2",
+      "Performed maintenance by resolving critical bugs, took part in Agile Sprints and Weekly Scrum Meetings",
+      "Implemented TTL indexing in MongoDB for efficient auto-expiration, streamlining stored email cleanup"
+    ],
+    image: "/mailsped_logo.jpeg",
+    thumbnail: "/mailsped_logo.jpeg",
+    imageAlt: "MailSped Logo"
+  },
+  {
     title: "Undergraduate Research Assistant",
     org: "Comprehension, Collaboration and Creativity Lab – UIC",
     date: "Sept 2024 – May 2025",
