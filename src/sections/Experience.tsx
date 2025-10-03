@@ -4,15 +4,15 @@ import { motion } from 'framer-motion';
 
 const experiences = [
   {
-    title: "Jr. Full-Stack Developer",
-    org: "Constellation Energy Corporation",
+    title: "Data Scientist",
+    org: "",
     date: "August 2025 - Present",
     bullets: [
       "Building a Modern AI-Powered Sales Platform."
     ],
-    image: "/constellation_logo.gif",
-    thumbnail: "/constellation_logo.gif",
-    imageAlt: "Constellation Logo"
+    image: "",
+    thumbnail: "",
+    imageAlt: ""
   },
   {
     title: "Software Engineering Intern",
