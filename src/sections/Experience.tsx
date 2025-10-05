@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const experiences = [
   {
     title: "Data Scientist",
-    org: "",
+    org: "Fortune 200 Company",
     date: "August 2025 - Present",
     bullets: [
       "Building a Modern AI-Powered Sales Platform."
