@@ -51,7 +51,7 @@ const projectsByCategory = {
       tech: ["Pandas", "Matplotlib", "Logistic Regression", "Random Forest"],
       image: "/flight-delay-prediction.jpg",
       github: "https://github.com/mohammadnusairat/Flight-Time-Delay-Prediction",
-      live: "Flight-Delay-Prediction.pdf"
+      live: "/Flight-Delay-Prediction.pdf"
     },
     {
       title: "Political Tweet Classifier",

@@ -4,20 +4,31 @@ import { motion } from 'framer-motion';
 
 const experiences = [
   {
-    title: "Data Scientist",
-    org: "Fortune 200 Company",
-    date: "August 2025 - Present",
+    title: "AI Data Scientist II",
+    org: "AbbVie – North Chicago, IL",
+    date: "September 2026 - Present",
     bullets: [
-      "Building a Modern AI-Powered Sales Platform."
+      "Building AI solutions for clinical data operations and pharmaceutical innovation as part of the FAiM team."
     ],
-    image: "",
-    thumbnail: "",
-    imageAlt: ""
+    image: "/abbvie_logo.jpg",
+    thumbnail: "/abbvie_logo.jpg",
+    imageAlt: "AbbVie Logo"
   },
   {
-    title: "Software Engineering Intern",
-    org: "MUHSEN",
-    date: "June 2025 - Present",
+    title: "AI Data Scientist I",
+    org: "Constellation Energy – Remote",
+    date: "August 2025 - September 2026",
+    bullets: [
+      "Built a Modern AI-Powered Sales Management Platform for Constellation Energy as a Data Science Consultant through Brooksource."
+    ],
+    image: "/constellation_logo.gif",
+    thumbnail: "/constellation_logo.gif",
+    imageAlt: "Constellation Logo"
+  },
+  {
+    title: "Applied Data Science Intern",
+    org: "MUHSEN – Remote",
+    date: "June 2025 - August 2025",
     bullets: [
       "Built and deployed an internally adopted org-wide CSV processing platform for donor data encryption, and advanced data cleaning and deduplication.",
       "Improved data privacy compliance and volunteer workflow by 10x, by implementing column-level encryption using Fernet and domain-gated Flask endpoints.",
@@ -30,7 +41,7 @@ const experiences = [
   },
   {
     title: "Machine Learning Intern",
-    org: "Dasion",
+    org: "Dasion – Remote",
     date: "May 2025 - August 2025",
     bullets: [
       "Built a multimodal cancer imaging platform used to manage patient records and analyze MRI, CT, X-ray, and histopathology scans, by developing a full-stack app with FastAPI, PostgreSQL, and React",
@@ -44,7 +55,7 @@ const experiences = [
   },
   {
     title: "Back-End Software Engineering Intern",
-    org: "MailSped",
+    org: "MailSped – Remote",
     date: "June 2025 - July 2025",
     bullets: [
       "Expanded the AI-powered email platform, integrating Outlook via Microsoft Graph API and Azure OAuth2",
@@ -70,7 +81,7 @@ const experiences = [
   },
   {
     title: "Software Developer – AI Trainer",
-    org: "Outlier (Remote)",
+    org: "Outlier – Remote",
     date: "Jul 2024 – Apr 2025",
     bullets: [
       "Evaluated the quality of AI-generated Python/C++ code by developing robust test cases to train the model.",
@@ -83,7 +94,7 @@ const experiences = [
   },
   {
     title: "Software Engineering Fellow",
-    org: "Headstarter AI (Remote)",
+    org: "Headstarter AI – Remote",
     date: "Jul 2024 – Aug 2024",
     bullets: [
       "Built 5 AI apps & APIs using Next.js, OpenAI, Pinecone, and Stripe API with 98% accuracy as seen by 1000+ users.",
@@ -96,7 +107,7 @@ const experiences = [
   },
   {
     title: "Certified Nursing Assistant",
-    org: "Associates in Pediatrics – Elgin, IL (On-site)",
+    org: "Associates in Pediatrics – Elgin, IL",
     date: "Sep 2021 – Jul 2022",
     bullets: [
       "Delivered care to pediatric patients in a clinic through medical procedures and compassionate interaction.",

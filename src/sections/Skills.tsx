@@ -4,32 +4,32 @@ import { motion } from 'framer-motion';
 export default function Skills() {
   const skills = {
     "Languages": [
-      "Python", "C++", "C", "C#", "Java", "JavaScript", "TypeScript", "SQL", "R", "SAS"
+      "Python", "SQL", "JavaScript", "TypeScript", "Java", "C++", "R"
     ],
-    "Web & App Development": [
-      "React", "Next.js", "Flask", "Node.js", "Express", "HTML", "CSS", "Tailwind CSS"
+    "AI & Agentic Systems": [
+      "LLMs", "RAG", "LangChain", "LlamaIndex", "MCP", "ReAct", "OpenAI API", "LLM-as-Judge", "Scikit-learn", "PyTorch", "TensorFlow"
     ],
-    "Machine Learning & AI": [
-      "TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy", "OpenAI API", "Pinecone"
+    "Data Engineering & Analytics": [
+      "PySpark", "Pandas", "NumPy", "Databricks", "Kedro", "Azure Data Factory", "Great Expectations", "PostgreSQL"
     ],
-    "Data & Visualization": [
-      "PostgreSQL", "MongoDB", "SQLite", "Matplotlib", "Seaborn", "NetworkX", "Geopy"
+    "Backend & APIs": [
+      "FastAPI", "Flask", "Node.js", "Express", "REST APIs", "Pydantic", "PyTest"
     ],
-    "Tools & DevOps": [
-      "Git", "GitHub", "Jupyter Notebook", "VS Code", "Docker", "AWS", "Anaconda", "Stripe API", "Railway", "Vercel"
+    "Cloud, DevOps & MLOps": [
+      "AWS", "Azure", "Docker", "Git", "GitHub", "CI/CD", "MLflow", "OpenTelemetry", "Azure App Services", "Azure Blob Storage"
     ],
-    "Design & Collaboration": [
-      "Figma", "Agile/Scrum", "CI/CD", "MVC Design Pattern", "Technical Writing", "Test-Driven Development"
+    "Product Engineering & Collaboration": [
+      "React", "Next.js", "Agile/Scrum", "System Design", "Technical Writing", "Test-Driven Development", "Figma"
     ]
   };
 
   const categoryColors: { [key: string]: string } = {
     "Languages": "bg-blue-100 text-blue-800 border-blue-300 dark:bg-blue-900 dark:text-blue-200 dark:border-blue-700",
-    "Web & App Development": "bg-purple-100 text-purple-800 border-purple-300 dark:bg-purple-900 dark:text-purple-200 dark:border-purple-700",
-    "Machine Learning & AI": "bg-green-100 text-green-800 border-green-300 dark:bg-green-900 dark:text-green-200 dark:border-green-700",
-    "Data & Visualization": "bg-yellow-100 text-yellow-800 border-yellow-300 dark:bg-yellow-900 dark:text-yellow-200 dark:border-yellow-700",
-    "Tools & DevOps": "bg-red-100 text-red-800 border-red-300 dark:bg-red-900 dark:text-red-200 dark:border-red-700",
-    "Design & Collaboration": "bg-pink-100 text-pink-800 border-pink-300 dark:bg-pink-900 dark:text-pink-200 dark:border-pink-700"
+    "AI & Agentic Systems": "bg-purple-100 text-purple-800 border-purple-300 dark:bg-purple-900 dark:text-purple-200 dark:border-purple-700",
+    "Data Engineering & Analytics": "bg-green-100 text-green-800 border-green-300 dark:bg-green-900 dark:text-green-200 dark:border-green-700",
+    "Backend & APIs": "bg-yellow-100 text-yellow-800 border-yellow-300 dark:bg-yellow-900 dark:text-yellow-200 dark:border-yellow-700",
+    "Cloud, DevOps & MLOps": "bg-red-100 text-red-800 border-red-300 dark:bg-red-900 dark:text-red-200 dark:border-red-700",
+    "Product Engineering & Collaboration": "bg-pink-100 text-pink-800 border-pink-300 dark:bg-pink-900 dark:text-pink-200 dark:border-pink-700"
   };
 
   return (

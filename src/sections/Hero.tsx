@@ -18,37 +18,55 @@ export default function Hero() {
         Hi! I'm Mohammad,&nbsp;
         <span className="relative inline-block group cursor-pointer whitespace-nowrap">
           <span className="relative z-10 text-blue-700 dark:text-blue-300 animate-[pulse-glow_3s_ease-in-out_infinite]">
-            AI Software Engineer
+            AI Data Scientist
           </span>
           <span className="absolute left-0 bottom-0 w-full h-[2px] bg-blue-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></span>
           <span className="absolute inset-0 rounded-md ring-2 ring-blue-300/40 blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></span>
         </span>
       </h1>
         <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 space-y-4">
-          I design and build intelligent systems that are fast, scalable, and user-focused. My variety of experience spans full-stack development, ML model training and deployment, data science, and research in computer programming.
+          I design and build intelligent systems that turn complex data into reliable products. My work spans full-stack LLM applications, agentic AI, RAG, scalable data pipelines, and machine learning systems.
           <br />
           <span className="inline-block">
-            I recently graduated with a B.S. in Data Science (Computer Science concentration) from the University of Illinois Chicago. I’m currently working as a{' '}
+            I earned my B.S. in Data Science with a Computer Science concentration from the University of Illinois Chicago and am pursuing an M.S. in Computer Science at the University of Illinois Urbana-Champaign. I currently work as an{' '}
             <span className="relative inline-block group cursor-pointer">
               <span className="relative z-10 text-blue-700 dark:text-blue-300 animate-[pulse-glow_3s_ease-in-out_infinite]">
-                Data Scientist
+                AI Data Scientist II
               </span>
               <span className="absolute left-0 bottom-0 w-full h-[2px] bg-blue-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></span>
               <span className="absolute inset-0 rounded-md ring-2 ring-blue-300/40 blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></span>
             </span>
-            {/* {' '} at{' '}
+            {' '} at{' '}
+            <a
+              href="https://www.abbvie.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-700 dark:text-blue-300 underline hover:text-blue-900 transition-colors"
+            >
+              AbbVie
+            </a>
+            . Previously, I was an AI Data Scientist at{' '}
             <a
               href="https://www.constellation.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-700 dark:text-blue-300 underline hover:text-blue-900 transition-colors"
             >
+              Constellation Energy
+            </a>
+            {' '}through{' '}
+            <a
+              href="https://www.brooksource.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-700 dark:text-blue-300 underline hover:text-blue-900 transition-colors"
+            >
               Brooksource
-            </a> */}
-            , and pursuing a M.S. in Computer Science at the University of Illinois Urbana-Champaign. Let’s connect!
+            </a>
+            , where I built an AI-powered sales platform through scalable data science workflows. Let’s connect!
           </span>
         </p>
-
+    
         <div className="mt-4 flex flex-col sm:flex-row gap-4">
           {/* View Resume Button */}
           <a

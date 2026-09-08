@@ -1,6 +1,6 @@
 # 🧑‍💻 Mohammad Nusairat — Personal Portfolio
 
-This is my personal landing page, built to showcase my background, skills, projects, and certifications as a Software Engineer with a focus on AI, data science, and full-stack development. Designed to be clean, modern, and fully responsive, the site emphasizes interactivity and clarity so recruiters and collaborators can both read and **see** my work.
+This is my personal landing page, built to showcase my background, skills, projects, and certifications as an AI Data Scientist focused on production AI systems, data engineering, and full-stack development. Designed to be clean, modern, and fully responsive, the site emphasizes interactivity and clarity so recruiters and collaborators can both read and **see** my work.
 
 ## 🚀 Features
 
@@ -10,7 +10,7 @@ This is my personal landing page, built to showcase my background, skills, proje
 - 🏆 A **Certifications** section replacing the resume download, using issuer logos and card layout
 - 📎 Dual CTA buttons: **View Resume** and **View GitHub**, with pulse-glow animations
 - 🔗 Icon-based **Footer** linking to email, LinkedIn, and GitHub with Lucide icons
-- 📅 Footer version label: `v1.0 — Last updated May 2025`
+- 📅 Footer version label
 - 🌓 Dark mode support and responsive layout across devices
 
 ## 🛠️ Technologies Used
