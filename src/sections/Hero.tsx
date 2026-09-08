@@ -52,7 +52,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               className="text-blue-700 dark:text-blue-300 underline hover:text-blue-900 transition-colors"
             >
-              Constellation Energy
+              Constellation
             </a>
             {' '}through{' '}
             <a
